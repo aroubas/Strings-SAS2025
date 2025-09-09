@@ -3,7 +3,7 @@
 
 int main(){
   
-  char arr[]="ABCD EFGH IJKLM ";
+  char arr[]="ABCD XEFGH XIJKLM . ";
   
   int i ;
   int j = 0;
@@ -13,6 +13,7 @@ int main(){
       arr[j++]=arr[i];         
     }
   }
-  printf("arr: %s",arr);
+  printf("arr:%s",arr);
   return 0;
 }
+//espace

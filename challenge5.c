@@ -4,11 +4,12 @@
 int main(){
   
   char arr[]="abcd";
-  int siz = sizeof(arr)/sizeof(arr[0]);
-
-  for (int i = siz; i >= 0; i--)
+  
+  for (int i = strlen(arr); i >= 0; i--)
   {
     printf("%c",arr[i]);
   }
+
 return 0;
 }
+//INVERSION
